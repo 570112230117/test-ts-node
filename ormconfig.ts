@@ -11,10 +11,10 @@ export = {
     synchronize: true,
     migrationsRun: true,
     entities: [
-        'src/bEntity/*{.ts,.js}',
-        'src/bEntity/*.ts',
-        'src/bEntity/**/*.ts',
-        __dirname + "/bEntity/*.ts"
+        'src/entity/*{.ts,.js}',
+        'src/entity/*.ts',
+        'src/entity/**/*.ts',
+        __dirname + "/entity/*.ts"
 
     ],
     subscribers: [
@@ -26,7 +26,7 @@ export = {
     cli: {
         entitiesDir: [
             'src/entity',
-            'src/project/bEntity'
+            'src/project/entity'
         ],
         migrationsDir: 'src/migration',
         subscribersDir: 'src/subscriber'

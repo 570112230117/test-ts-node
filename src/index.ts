@@ -9,7 +9,7 @@ const logger = require('koa-logger')
 import * as dotenv from "dotenv";
 dotenv.config();
 
-import { Admin2 } from "./bEntity/Admin2";
+import { Admin } from "./entity/Admin";
 
 // createConnection({
 //     type: "mysql",

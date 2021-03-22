@@ -2,7 +2,7 @@
 import { Entity, Column, CreateDateColumn, UpdateDateColumn, ObjectIdColumn, ObjectID, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity({ name: "admin" })
-export class Admin2 {
+export class Admin {
 
     @PrimaryGeneratedColumn()
     id: number;
