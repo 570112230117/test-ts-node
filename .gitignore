@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+build/
+tmp/
+temp/
+.history/
+bin/
+.vs/
+package-lock.json
+/node_modules
